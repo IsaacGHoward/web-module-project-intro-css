@@ -5,12 +5,32 @@
 h1{
 	font-family: 'Chelsea Market', cursive;
 }
+nav{
+	text-align: center;
+	margin: 0 auto;
+  width: 90%;
+}
 .secondContent{
 	background-color: #DDB9A3;
 	color:white;
 }
 footer{
 	background-color: #F9E7DC;
+}
+header img{
+	border-radius: 50%;
+	width : 10%;
+	display: inline;
+
+}
+nav a{
+	width: 7%;
+	text-decoration: none;
+	margin: 2% 9.5%;
+	border-radius: 10px;
+	padding: 7px 20px;
+	color:white;
+	display: inline-block;
 }
 a.plan{
 	background-color: #FF764E
@@ -19,5 +39,7 @@ a.learn{
 	background-color: #5ED3EB
 }
 a.getinvolved{
+	width: 5%;
+	padding: 7px 30px;
 	background-color: #FFCD69
 }
