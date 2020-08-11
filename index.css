@@ -3,6 +3,11 @@
 	font-family: 'Roboto Mono', monospace;
 	text-align: center;
 }
+@keyframes nav_anim {
+	from{background-color: background-color; color:white}
+	to{background-color: white; color:black}
+
+}
 
 header nav{
 	text-align: center;
@@ -17,6 +22,10 @@ nav a{
 	padding: 7px 20px;
 	color:white;
 	display: inline-block;
+}
+nav a:hover{
+	animation: nav_anim 1s ease 0s infinite alternate
+
 }
 a.plan{
 	background-color: #FF764E
