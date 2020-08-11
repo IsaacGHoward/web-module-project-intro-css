@@ -3,31 +3,11 @@
 	font-family: 'Roboto Mono', monospace;
 	text-align: center;
 }
-h1{
-	font-family: 'Chelsea Market', cursive;
-	display: inline-block;
-	font-size: 50px;
-}
+
 header nav{
 	text-align: center;
 	margin: 0 auto;
   width: 65%;
-}
-.secondContent{
-	background-color: #DDB9A3;
-	color:white;
-	width: 55%;
-	margin: 75px auto;
-	padding: 10px;
-}
-.main{
-	display:flex;
-	justify-content: center;
-}
-header img{
-	border-radius: 50%;
-	width : 13%;
-	display: inline-block;
 }
 nav a{
 	width: 10%;
@@ -48,6 +28,27 @@ a.getinvolved{
 	width: 5%;
 	padding: 7px 30px;
 	background-color: #FFCD69;
+}
+.main{
+	display:flex;
+	justify-content: center;
+}
+header img{
+	border-radius: 50%;
+	width : 13%;
+	display: inline-block;
+}
+h1{
+	font-family: 'Chelsea Market', cursive;
+	display: inline-block;
+	font-size: 50px;
+}
+.secondContent{
+	background-color: #DDB9A3;
+	color:white;
+	width: 55%;
+	margin: 75px auto;
+	padding: 10px;
 }
 .fire{
 	width: 30%;
