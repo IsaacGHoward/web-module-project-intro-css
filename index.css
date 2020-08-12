@@ -39,12 +39,15 @@ a.getinvolved{
 	background-color: #FFCD69;
 }
 .main{
-	display:flex;
-	justify-content: center;
+	
+	text-align: center;
 }
 header img{
 	border-radius: 50%;
 	width : 13%;
+	display: inline-block;
+}
+.aligndiv{
 	display: inline-block;
 }
 h1{
